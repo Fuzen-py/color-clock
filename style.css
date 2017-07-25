@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+
+p {
+	display: inline;
+}
+
+
+#clock {
+	color: white;
+	font: 64px/64px monospace;
+	height: 64px;
+	position: relative;
+	top: 50%;
+	margin-top: -32px;
+	text-align: center;
+}
+
+.mseconds{
+	font-size: 32px;
+}
+
+#progress-bar {
+	position: relative;
+	top: 52%;
+	left: 39%;
+	width:10%;
+	background-color: #ffffff;
+	height:5px;
+}
+
