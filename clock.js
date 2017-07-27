@@ -1,12 +1,5 @@
 var showhex = false;
-function to_hex(char) {
-	char = char.toString(16);
-	if (char.length > 1) {
-		return char;
-	}
-	return "0" + char;
-
-}
+function to_hex(char) {return ("0" + char.toString(16)).slice(-2);}
 function get_hex() {
 
 	var d = new Date(), h = d.getHours(), m = d.getMinutes(), s = d.getSeconds();
